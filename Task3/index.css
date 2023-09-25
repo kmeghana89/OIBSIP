@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: "Roboto";
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    height: 100vh;
+    background-color: #333;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.temprature-converting-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+
+    min-height: 50%;
+    min-width: 30%;
+}
+
+#top-taskbar,
+#time-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#time-element {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+}
+
+.icon-style {
+    margin-right: 6px;
+}
+
+#heading-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.inputs-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+#type-of-temp-div,
+#degrees-div {
+    width: 49%;
+    margin-right: 20px;
+}
+
+.side-heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: black;
+    margin-top: 5px;
+
+}
+
+#input-degrees {
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px grey;
+}
+
+#status {
+    font-size: 20px;
+    height: 45px;
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px grey;
+}
+
+#status:hover,
+#input-degrees:hover {
+    border: 2px solid blue;
+}
+
+.line-style {
+    background-color: black;
+}
+
+#result-temp {
+    font-size: 28px;
+}
+
+#convert-button {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: green;
+    margin-top: 15px;
+}
+
+@media (min-width:576px) {
+    #convert-button {
+        width: 60%;
+    }
+
+    #btn-div {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:576px) {
+    .bg-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #result-temp {
+        font-size: 16px;
+    }
+}
