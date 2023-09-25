@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="temprature-converting-card">
+            <div id="top-taskbar">
+                <div id="time-div">
+                    <p id="time-element">20:40</p>
+                    <i class="fab fa-instagram icon-style"></i>
+                    <i class="fab fa-linkedin icon-style"></i>
+                    <i class="far fa-comment-dots"></i>
+                </div>
+
+                <div>
+                    <i class="fas fa-wifi icon-style"></i>
+                    <i class="fas fa-battery-three-quarters icon-style"></i>
+                </div>
+            </div>
+            <h1 id="heading-text">Temperature Converter</h1>
+            <div class="inputs-container">
+                <div id="degrees-div">
+                    <p class="side-heading">Degrees</p>
+                    <input id="input-degrees" type="text" placeholder="Enter Temperature" />
+                    <hr class="line-style" />
+                </div>
+                <div id="type-of-temp-div">
+                    <p class="side-heading">Type</p>
+                    <select id="status">
+                        <option>Celcius</option>
+                        <option selected>Fahrenheit</option>
+                    </select>
+                    <hr class="line-style" />
+                </div>
+            </div>
+            <div>
+                <p class="side-heading" id="converted-degrees-title">Converted Degrees</p>
+                <p id="result-temp"></p>
+                <hr class="line-style" />
+            </div>
+            <div id="btn-div">
+                <button id="convert-button">Convert</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
