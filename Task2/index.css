@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#J-logo-style {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: roboto;
+    border-color: #4b6cc1;
+    padding: 10px;
+}
+
+#navitem0 {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+#navitem1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+#navitem2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+#navitem3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+#navitem4 {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+.profile-photo-image-style {
+    height: 250px;
+    width: 250px;
+    border-radius: 40px;
+}
+
+.banner-container {
+    background-color: #191a1d;
+    background-size: cover;
+    height: 100vh;
+}
+
+.jenny-text {
+    color: #4b6cc1;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: roboto;
+}
+
+.jobrole-discription {
+    color: #9aa5b1;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+.contact-socialMedia-icons {
+    color: white;
+    margin-right: 5px;
+}
+
+.arrrowLeft-icon {
+    margin-right: 3px;
+}
+
+.contact-socialMedia-icons:hover {
+    /* background-color: white; */
+    color: gold;
+}
+
+.contactme-button-style {
+    height: 40px;
+    width: 145px;
+    border-radius: 20px;
+    background-color: #4b6cc1;
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.contactme-button-style:hover {
+    background-color: green;
+}
+
+@media (min-width:992px) {
+    .contactme-button-style {
+        height: 50px;
+        width: 155px;
+        border-radius: 25px;
+    }
+
+    .contact-socialMedia-icons {
+        /* height: 65px;
+        width: 50px; */
+        margin-right: 15px;
+    }
+
+    .arrrowLeft-icon {
+        margin-right: 5px;
+    }
+}
+
+/*end of the banner section ====================================================*/
+
+.profile-container {
+    background-color: #323f4b;
+    overflow: auto;
+}
+
+.skills-container {
+    background-color:
+        /* #1f2933 */
+        #3e4c59;
+    padding: 40px;
+
+}
+
+.facts-text {
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 500;
+    color: #cced00;
+}
+
+.facts-image-style {
+    height: 40%;
+    width: 100%;
+
+    border-radius: 15px;
+}
+
+.facts-image2-style {
+    height: 94%;
+    width: 100%;
+
+    border-radius: 15px;
+}
+
+.facts-text-discription {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: #9aa5b1;
+}
+
+@media (max-width:572px) {
+    .facts-image-style {
+        height: 25%;
+        width: 100%;
+    }
+}
+
+.skill-language-card-style {
+    background-color: #323f4b;
+    height: 180px;
+    width: 170px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.skill-language-icon {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.skill-language-text {
+    color: white;
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+@media (max-width:576px) {
+    .skill-language-card-style {
+        height: 110px;
+        width: 100px;
+    }
+
+    .skill-language-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .skill-language-text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+.portfolio-bg-container {
+    background-color:
+        /* #3e4c59 */
+        #323f4d;
+}
+
+.portfolio-text {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+.projects-card-container {
+    background-color: #3e4c59;
+    border-radius: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects-image {
+    border-radius: 16px 16px 0px 0px;
+    height: 250px;
+}
+
+.project-name {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: roboto;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+
+.project-webdesign-text {
+    color: #9aa5b1;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: roboto;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.projects-discription-text {
+    color: #9aa5b1;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: roboto;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.projects-readmore-text {
+    color: #cced00;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: roboto;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+.services-bg-container {
+    background-color: #52606d;
+    background-size: cover;
+
+    padding: 10px;
+}
+
+.services-container {
+    background-color: #323f4b;
+    border-radius: 10px;
+    min-height: 100%;
+    overflow: auto;
+}
+
+.services-main-heading {
+    color: #cced00;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+.services-sub-heading {
+    color: white;
+    font-family: roboto;
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 12px;
+}
+
+.service-icon-image-style {
+    height: 60px;
+    width: 60px;
+}
+
+.service-project-name {
+    color: white;
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.service-project-discription {
+    color: #9aa5b1;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+.footer-bg-container {
+    background-color: #0d2436;
+    background-size: cover;
+}
+
+.footer-dp-image-style {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.footer-main-font {
+    font-family: Roboto;
+    font-size: 25px;
+    color: #cced00;
+    font-weight: 800;
+}
+
+.footer-sub-text {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #9aa5b1;
+    font-weight: 500;
+}
+
+.footer-icon-style {
+    color: #5a7184;
+    font-size: 25px;
+}
+
+.footer-card {
+    text-align: center;
+    background-color: #001c32;
+    color: white;
+    padding: 10px;
+}
+
+.footer-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
